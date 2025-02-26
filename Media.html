@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Embeds in HTML</title>
+  </head>
+  <body>
+    <h2>Local Video</h2>
+    <video width="640" height="360" controls>
+      <source src="/media/myvideo.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>YouTube Video</h2>
+    <iframe
+      width="640"
+      height="360"
+      src="https://www.youtube.com/embed/BqurjRXc0Ik"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+    </iframe>
+
+    <h2>Audio File</h2>
+    <audio controls>
+      <source src="/media/myaudio.mp3" type="audio/mp3" />
+      Your browser does not support the audio tag.
+    </audio>
+  </body>
+</html>
