@@ -3,22 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Input Field Restrictions</title>
 </head>
 <body>
-    <form action="#">
-        <label for="firstname">First name:
-        <input type="text" name="firstname" value="Mugisha">
-    </label> <br>
-    <label for="lastname">
-        Last name:
-        <input type="text" name="lastname" value="Ange">
-    </label> <br>
-    <input type="submit" value="Submit">
-    <input type="reset"> <br>
+    <h2>HTML Input Field Restrictions</h2>
+    <form>
+        <label>Disabled Field:</label>
+        <input type="text" disabled value="Can't edit this"><br><br>
 
-    <input type="text" onclick="alert('hello world')" value="Click me!">
+        <label>Max Value (100):</label>
+        <input type="number" max="100"><br><br>
 
+        <label>Max Length (5 characters):</label>
+        <input type="text" maxlength="5"><br><br>
+
+        <label>Min Value (10):</label>
+        <input type="number" min="10"><br><br>
+
+        <label>Pattern (3 letters only):</label>
+        <input type="text" pattern="[A-Za-z]{3}" title="Enter exactly 3 letters"><br><br>
+
+        <label>Readonly Field:</label>
+        <input type="text" readonly value="Read-only text"><br><br>
+
+        <label>Required Field:</label>
+        <input type="text" required><br><br>
+
+        <label>Size (10 characters width):</label>
+        <input type="text" size="10"><br><br>
+
+        <label>Step (2 for numbers):</label>
+        <input type="number" step="2"><br><br>
+
+        <label>Default Value:</label>
+        <input type="text" value="Default Text"><br><br>
+
+        <label>Autocomplete (on):</label>
+        <input type="text" autocomplete="on"><br><br>
+
+        <label>Autofocus Field:</label>
+        <input type="text" autofocus><br><br>
+
+        <label>Checked Checkbox:</label>
+        <input type="checkbox" checked><br><br>
+
+        <label>Placeholder Text:</label>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Multiple File Selection:</label>
+        <input type="file" multiple><br><br>
+
+        <label>Name Attribute:</label>
+        <input type="text" name="username"><br><br>
+
+        <label>Input Type (Email):</label>
+        <input type="email" placeholder="example@mail.com"><br><br>
+
+        <input type="submit" value="Submit">
     </form>
     
 </body>
