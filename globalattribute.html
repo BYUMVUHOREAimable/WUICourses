@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        kbd{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <h2>Accesskey</h2>
+   <p>The accesskey attribute specifies a shortcut key to activate/focus an element.</p>
+   <ul>
+    <li>IE, Chrome, Safari, Opera 15+:<kbd>ALT</kbd>+<em>accesskey</em></li>
+    <li>Firefox:<kbd>ALT</kbd>+<kbd>SHIFT</kbd> + <em>accesskey</em></li>
+   </ul>
+   <h3>Example1. To open these links use shortcuts w and c respectively:</h3>
+   <a href="https://www.w3schools.com/html" accesskey="t">HTML Tutorial</a><br>
+   <a href="https://www.w3schools.com/css" accesskey="c">CSS Tutorial</a>
+   
+   <p><strong>Example2. To submit the form:</strong></p>
+   <form action="#" method="get">
+    <label for="email">Email</label>
+    <input type="email" name="myemail" id="email">
+    <input accesskey="h" type="Submit" value="Send">
+   </form>
+   <h3>Try</h3>
+   <kbd>alt</kbd> + <br><b>OR</b><br>
+   <kbd>alt</kbd> + <kbd>shift</kbd>
+</body>
+</html>
