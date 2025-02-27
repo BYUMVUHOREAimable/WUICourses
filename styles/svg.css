@@ -1,0 +1,23 @@
+ .roundedrectangle{
+    fill: blue;
+    stroke: red;
+    stroke-width: 5;
+    opacity: 0.7;
+ }
+
+ .ellipse{
+   fill: yellow;
+   stroke-width: 2;
+   stroke: purple;
+ }
+
+ .svgstar{
+   fill:rgb(0, 136, 255);
+   stroke:rgb(102, 128, 0);
+   stroke-width:5;fill-rule:evenodd;
+ }
+ #text{
+   fill: rgb(0, 110, 255);
+   transform: rotate(30,20,40);
+   font-size:"120px";
+ }
